@@ -3,15 +3,16 @@ import styled from 'styled-components';
 
 const Bar = styled.div`
 			display:grid;
-			grid-template-columns:100px 100px 100px;
+			grid-template-columns:180px auto 100px 100px;
 ` 
 
 
 export default function(){
 	return	<Bar>
-		  <div>child 1</div>
-		  <div>child 1</div>
-		  <div>child 1</div>
+		  <div>Cryptodash</div>
+		  <div></div>
+		  <div>Dashboard</div>
+		  <div>Shared</div>
 		</Bar>
 
 }
