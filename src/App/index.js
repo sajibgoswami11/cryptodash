@@ -2,16 +2,19 @@ import React, { Component } from 'react';
 import './App.css';
 import AppLayout from './AppLayout';
 import AppBar from './AppBar';
-//import styled from 'styled-components';
+import Settings from '../Settings'; 
 
+import {AppProvider} from './AppProvider';
 
 
 class App extends Component {
   render() {
     return (
      <AppLayout>
-       <AppBar />
-	     HEllo
+	      <AppProvider>
+	       <AppBar />
+		     < Settings />
+		    </AppProvider>    
       </AppLayout>
     );
   }
