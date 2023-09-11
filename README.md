@@ -1,2 +1,1 @@
-just a simple dashboard of cryptocurrency
-
+# Cryptocurrency for practicing reactjs
